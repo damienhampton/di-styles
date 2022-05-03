@@ -1,0 +1,21 @@
+{
+  "name": "styles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "node-dependency-injection": "^2.7.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "classes:di": "ts-node src/classes-di/start",
+    "classes:container": "ts-node src/classes-container/start",
+    "classes:container:magic": "ts-node src/classes-magic-container/start",
+    "functions:di": "ts-node src/functions-di/start",
+    "functions:container": "ts-node src/functions-container/start"
+  }
+}
